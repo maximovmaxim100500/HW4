@@ -58,5 +58,30 @@ else {
             System.out.println("Если возраст ребенка равен " + childsAge + ", то ему можно кататься на аттракционе" +
                     " без сопровождения взрослого.");
         }
-}
+        System.out.println(" ");
+        System.out.println("Задача 6");
+        int capacity = 102;
+        int seatPlace = 60;
+        int totalPerson = 70;
+        if ((capacity-totalPerson) <= 0 ) {
+            System.out.println("Вагон полностью забит.");
+        } else if (seatPlace > totalPerson) {
+            System.out.println("В вагоне " + (seatPlace-totalPerson) + " сидячих и " + (capacity - seatPlace) +
+                    " стоячих мест.");
+        } else  if (seatPlace <= totalPerson) {
+            System.out.println("В вагоне 0 сидячих и " + (capacity-totalPerson) + " стоячих мест.");
+        }
+        System.out.println(" ");
+        System.out.println("Задача 7");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one >three) {
+            System.out.println("Число " + one + " самое большое");
+        } else if (two > one && two > three) {
+            System.out.println("Число " + two + " самое большое");
+        } else {
+            System.out.println("Число " + three + " самое большое");
+        }
+    }
 }
