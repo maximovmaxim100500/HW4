@@ -30,5 +30,20 @@ else {
         }
         System.out.println(" ");
         System.out.println("Задача 4");
+        int age2 = 25;
+        if (age2 > 2 && age2 < 6) {
+            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад.");
+        }
+        if (age2 > 6 && age2 < 17) {
+            System.out.println("Если возрасть человека равен " + age2 + ", то ему нужно ходить в школу.");
+        }
+        if (age2 >= 18 && age2 <= 24) {
+            System.out.println("Если возрасть человека равен " + age2 + ", то его место в университете.");
+        }
+        if (age2 > 24) {
+            System.out.println("Если возрасть человека равен " + age2 + ", то ему пора ходить на работу.");
+        }
+        System.out.println(" ");
+        System.out.println("Задача 5");
 }
 }
