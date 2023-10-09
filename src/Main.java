@@ -21,7 +21,7 @@ else {
 }
         System.out.println(" ");
         System.out.println("Задача 3");
-        int speed = 60;
+        int speed = 50;
         if (speed > 60){
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф.");
         }
@@ -30,20 +30,33 @@ else {
         }
         System.out.println(" ");
         System.out.println("Задача 4");
-        int age2 = 25;
-        if (age2 > 2 && age2 < 6) {
+        int age2 = 24;
+        if (age2 >= 2 && age2 < 6) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад.");
         }
-        if (age2 > 6 && age2 < 17) {
+        else if (age2 >=6 && age2 <= 17) {
             System.out.println("Если возрасть человека равен " + age2 + ", то ему нужно ходить в школу.");
         }
-        if (age2 >= 18 && age2 <= 24) {
+        else if (age2 >= 18 && age2 <= 24) {
             System.out.println("Если возрасть человека равен " + age2 + ", то его место в университете.");
         }
-        if (age2 > 24) {
+        else {
             System.out.println("Если возрасть человека равен " + age2 + ", то ему пора ходить на работу.");
         }
+
         System.out.println(" ");
         System.out.println("Задача 5");
+        int childsAge = 10;
+        if (childsAge < 5) {
+            System.out.println("Если возраст ребенка равен " + childsAge + ", то ему нельзя кататься на аттракционе.");
+        }
+        if (childsAge >= 5 && childsAge < 14) {
+            System.out.println("Если возраст ребенка равен " + childsAge + ", то ему можно кататься на аттракционе" +
+                    " в сопровождении взрослого.");
+        }
+        else {
+            System.out.println("Если возрасть ребенка равен " + childsAge + ", то ему можно кататься на аттракционе" +
+                    "без сопровождения взрослого");
+        }
 }
 }
